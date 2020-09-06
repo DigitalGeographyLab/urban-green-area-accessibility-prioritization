@@ -14,10 +14,10 @@ R scripts and Zonation input and output files for the research article Jalkanen,
 Each folder contains standard Zonation input and output files for different analysis versions described in the article. The .bat files that execute each Zonation run are located in the corresponding folders. The “input” subfolders include the features_list.spp and settings.dat files for each run. The “output” subfolders include all files generated and named automatically by the Zonation software. For instance, the priority rank maps shown in the article are found in these subfolders. See the Zonation manual (Moilanen et al. 2014) for details about e.g. the usage, naming, or structure of the different files.
 
 Zonation analysis versions are named as follows:
-walk = Analysis includes the accessibility of all green areas based on walking.
-bike = Analysis includes the accessibility of all green areas based on biking.
-pt = Analysis includes the accessibility of large forests based on public transportation.
-weights = The population-weighted version of the analysis. Here, each input raster layer (showing the accessibility of green areas from different city districts) is weighted by the population of the corresponding district.
+* walk = Analysis includes the accessibility of all green areas based on walking.
+* bike = Analysis includes the accessibility of all green areas based on biking.
+* pt = Analysis includes the accessibility of large forests based on public transportation.
+* weights = The population-weighted version of the analysis. Here, each input raster layer (showing the accessibility of green areas from different city districts) is weighted by the population of the corresponding district.
 
 # References
 
